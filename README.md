@@ -1,6 +1,22 @@
 # openai-proxy
 Proxy for OpenAI api using python flask, supports SSE streaming.
 
+## Install dependencies
+
+With [rye][1]:
+
+```bash
+rye sync
+```
+
+With pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Testing
+
 - Update the variables in example.env, rename it to `.env`.
 - Use `python3 main.py` to start a local server.
 - Test the proxy with any http client.

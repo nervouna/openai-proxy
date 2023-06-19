@@ -26,3 +26,5 @@ curl -N http://127.0.0.1:9000/v1/chat/completions \
      -H "Content-Type: application/json" \
      -d '{"stream": true, "model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "What is the OpenAI mission?"}]}'
 ```
+
+[1]: https://rye-up.com/
